@@ -1,0 +1,16 @@
+.content {
+  width: 100%;
+  min-height: 50rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.content-left {
+  width: 30rem;
+  flex-shrink: 0;
+}
+
+.content-right {
+  flex-grow: 1;
+}
